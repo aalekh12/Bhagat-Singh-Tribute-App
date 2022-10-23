@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import { books } from './books'
+import Book from './Book'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className='btribute'><marquee>Small Tribute To Bhagat Singh "इनकलाब जिंदाबाद"</marquee></div>
+      <section className='quatelist'>
+        {books.map((book) => {
+          return <Book key={book.id} {...book}></Book>
+        })}
+      </section>
     </div>
   );
 }
