@@ -1,7 +1,7 @@
 export const books = [
     {
         id: 1,
-        img: 'https://www.thoughtsguruji.com/wp-content/uploads/2020/10/bhagat-singh-Quotes-1.1-768x768.jpg',
+        img: 'https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_1260/https://www.zindagiwow.com/wp-content/uploads/2019/01/Shaheed-Bhagat-Singh-Quotes-In-Hindi-1260x710.jpg',
         title: "Bhagat Singh",
         quate: "इस कदर वाकिफ है मेरी कलम मेरे जज़्बातों से,अगर मैं इश्क़ लिखना भी चाहूँ,तो इंक़लाब लिख जाता हूँ।"
     },
